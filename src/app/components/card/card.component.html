@@ -1,0 +1,22 @@
+
+    <!-- <h6>{{card.color}}</h6>
+    <h6>{{card.value}}</h6> -->
+    <div class="card">
+        <div class="container">
+          <h4><b>{{card.value}}</b> </h4>
+          <div *ngIf="card.color == 'Trèfle'">
+            <img style="height: 50px; width: 50px;"  src="https://cdn-icons-png.flaticon.com/256/68/68176.png">
+          </div> 
+          <div *ngIf="card.color == 'Cœur'">
+            <img style="height: 50px; width: 50px;"  src="https://icones.pro/wp-content/uploads/2021/02/icone-de-coeur-rouge-1.png">
+          </div> 
+          <div *ngIf="card.color == 'Pique'">
+            <img style="height: 50px; width: 50px;"  src="https://cdn-icons-png.flaticon.com/256/17/17807.png">
+          </div> 
+          <div *ngIf="card.color == 'Carreaux'">
+            <img style="height: 50px; width: 50px;"  src="https://www.ic%C3%B4ne.com/images/icones/1/9/as-carreau-b.png">
+          </div> 
+          <p>{{card.color}}</p> 
+        </div>
+      </div>
+
